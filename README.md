@@ -84,6 +84,7 @@ html {
 }
 ```
 上の場合はマージンは30pxになる
+[マージンの相殺](https://developer.mozilla.org/ja/docs/Web/CSS/CSS_Box_Model/Mastering_margin_collapsing)
 
 ### CSS Reset
 reset.cssとはブラウザごとに異なるユーザーエージェント(UA)スタイルシートを上書きするためのスタイルシート
