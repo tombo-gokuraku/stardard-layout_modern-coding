@@ -58,6 +58,32 @@ html {
 
 
 ### marginの相殺
+ブロックレベル要素の上下のマージンは相殺される
+例
+```
+<div class="box"></div>
+<div class="box"></div>
+```
+```
+.box {
+  margin: 20px;
+}
+```
+上のように設定すると、上下のdiv.boxに挟まれた空間のマージンは40pxではなく**20px**になる。
+値が異なる場合は、大きい方のマージンが採用される
+```
+<div class="box"></div>
+<div class="box-large"></div>
+```
+```
+.box {
+  margin: 20px;
+}
+.box-large {
+  margin: 30px;
+}
+```
+上の場合はマージンは30pxになる
 
 ### CSS Reset
 reset.cssとはブラウザごとに異なるユーザーエージェント(UA)スタイルシートを上書きするためのスタイルシート
