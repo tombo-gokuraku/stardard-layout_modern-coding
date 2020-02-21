@@ -109,8 +109,13 @@ reset.cssとはブラウザごとに異なるユーザーエージェント(UA)�
 normalize.cssとはUAスタイルシートを活かしつつ、ブラウザ間の差異のみ吸収するスタイルシート
 
 ## 要らないなと思ったところ
-### clearfix
+### flexboxの登場で改善された部分
+* clearfix
 float使わなければいいだけ。今はflexがあるから、もう覚えなくてもいいと思ってる
+* inline-block
+* line-heightで中央揃え
+
+
 
 ## Reference
 https://www.shoeisha.co.jp/book/detail/978479814157z
