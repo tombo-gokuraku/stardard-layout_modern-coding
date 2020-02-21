@@ -58,18 +58,13 @@ html {
 
 ### marginの相殺
 
-## 要らないなと思ったところ
-### clearfix
-float使わなければいいだけ。今はflexがあるから、もう覚えなくてもいいと思ってる
-
 ### CSS Reset
 reset.cssとはブラウザごとに異なるユーザーエージェント(UA)スタイルシートを上書きするためのスタイルシート
 normalize.cssとはUAスタイルシートを活かしつつ、ブラウザ間の差異のみ吸収するスタイルシート
 
-
-
-
-
+## 要らないなと思ったところ
+### clearfix
+float使わなければいいだけ。今はflexがあるから、もう覚えなくてもいいと思ってる
 
 ## Reference
 https://www.shoeisha.co.jp/book/detail/978479814157z
