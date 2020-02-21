@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color: #333;
+  font-size: 1.2rem;
+  font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: #d03c56;
+  text-decoration: none;
+}
+
+.header {
+  width: 100%;
+  padding: 28px 0 10px;
+
+  /* 幅1pxの画像を横方向に敷き詰めてストライプを作る */
+  background: url('../images/bg-header.gif') repeat-x;
+  box-shadow: 0 0 10px 1px #e3e3e3;
+}
+
+.wrapper {
+  width: 970px;
+  margin: 30px auto 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.main {
+  display: block;
+  width: 660px;
+}
+
+.sidemenu {
+  width: 275px;
+}
+
+.footer {
+  width: 100%;
+}
+
+/* 確認用のcss
+.header,
+.main,
+.sidemenu,
+.footer {
+  border: 1px solid #999;
+  background-color: #ccc;
+}
+
+.header,
+.footer {
+  height: 100px;
+}
+
+.main,
+.sidemenu {
+  height: 500px;
+}
+*/
