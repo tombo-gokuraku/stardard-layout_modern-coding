@@ -214,6 +214,7 @@ a:active {
 /* ARTICLES */
 .articles {
   display: flex;
+  justify-content: space-between;
 }
 
 .article-box {
